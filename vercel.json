@@ -1,14 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/decks/01_capability-sheet/index.html"
-    },
-    {
-      "source": "/decks/01_capability-sheet",
-      "destination": "/decks/01_capability-sheet/index.html"
+      "destination": "/decks/01_capability-sheet/",
+      "permanent": false
     }
   ]
 }
-
