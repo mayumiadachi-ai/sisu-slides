@@ -1,2 +1,16 @@
 @import "./sample.css";
 
+/* Keynote書き出し画像をそのまま表示するモード */
+.slide.slide-photo {
+  padding: 0;
+  background: #111;
+  overflow: hidden;
+}
+
+.slide.slide-photo .slide-full {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #111;
+}
